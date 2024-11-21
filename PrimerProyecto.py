@@ -11,4 +11,5 @@ print("Tu nombre es "+ input("Dime tu nombre: ")+" "+input("Dime tu apellido: ")
 #ejemplos ejercicios curso
 print(input("¿Qué estás estudiando? "))
 print(input("Escribe tu nombre: ")+" "+input("Escribe tu apellido: "))
-
+#primer proyecto simple
+print("El nombre de tu cerveza es:\n '"+input("Dime tu animal favorito: ")+" "+input("Dime un color de pelo que te guste: ")+"'"+"\nFelicidades!!")
