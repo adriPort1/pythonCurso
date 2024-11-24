@@ -19,3 +19,9 @@ print(dic3)
 print(dic3.keys())
 print(dic3.values())
 print(dic3.items())
+#Tupples -----------------------------------------
+#son como listas inmutables (y son mas eficientes porque ocupan menos
+mi_tupple = (1,2,3,4)
+mi_tupple2= (1,2,(10,20),3)
+#admiten varios valores
+print()
