@@ -24,4 +24,9 @@ print(dic3.items())
 mi_tupple = (1,2,3,4)
 mi_tupple2= (1,2,(10,20),3)
 #admiten varios valores
-print()
+t = (1,2,3)
+x,y,z=t
+print(x,y,z)
+t2= 1,2,3,1
+print(t2.count(1))
+print(t2.index(3))
