@@ -23,8 +23,7 @@ for i in  enumerate(lista):
 mis_tuples = list(enumerate(lista))
 print(mis_tuples)
 #--------------------------- ejercicio enumerate
-lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
-indice = 0
-for nombre in lista_nombres:
+lista_nombres = [(0,"Marcos"), "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
 
+for indice, nombre in enumerate(lista_nombres):
     print(f'{nombre} se encuentra en el índice {indice}')
