@@ -27,3 +27,9 @@ lista_nombres = [(0,"Marcos"), "Laura", "Mónica", "Javier", "Celina", "Marta", 
 
 for indice, nombre in enumerate(lista_nombres):
     print(f'{nombre} se encuentra en el índice {indice}')
+
+lista_nombres2 = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+
+for indice,nombre in enumerate(lista_nombres2):
+    if (nombre[0]=="M"):
+        print(indice)
