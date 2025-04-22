@@ -33,3 +33,7 @@ lista_nombres2 = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Da
 for indice,nombre in enumerate(lista_nombres2):
     if (nombre[0]=="M"):
         print(indice)
+#minymax
+#min (35,29,84) sera igual a 29 y max (35,29,84) sera igual a 84
+dic = {'c1':45,'c2':11}
+print(min(dic.values()))
