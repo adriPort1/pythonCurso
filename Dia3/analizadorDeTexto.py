@@ -50,4 +50,4 @@ print(f"Tu texto al reves es: '{texto_invertido}'")
 print("buscando python")
 busca_python = "python" in texto2
 dic = {True:"si", False:"NO"}
-print(f"La palabra 'Python {dic} aparece en el texto" )
+print(f"La palabra 'Python' {dic.values()} aparece en el texto" )
