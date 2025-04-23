@@ -15,5 +15,10 @@ print(marcas_smartphones)
 print(marcas_tv)
 print(marcas_aisladas)
 
-palabra ="pomelo".upper()
-palabra.
+#---------------------
+palabra = "Python".upper()[::-1]
+print(palabra)
+#ejemplo 2 de palabra invertida
+palabra2 = "Python".upper()
+palabra2Invertida=''.join(reversed(palabra2))
+print(palabra2Invertida)
